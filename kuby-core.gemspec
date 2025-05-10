@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'krane', '~> 2.0'
   s.add_dependency 'kuby-cert-manager', '~> 0.4'
   s.add_dependency 'kuby-crdb', '~> 0.4'
-  s.add_dependency 'kube-dsl', '~> 0.7'
   s.add_dependency 'kubernetes-cli', '~> 0.6'
   s.add_dependency 'railties', '>= 5.1'
   s.add_dependency 'rouge', '~> 3.0'

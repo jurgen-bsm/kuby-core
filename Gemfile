@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'kube-dsl', git: 'git@github.com:jurgen-bsm/kube-dsl.git', branch: 'main'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'rake'
